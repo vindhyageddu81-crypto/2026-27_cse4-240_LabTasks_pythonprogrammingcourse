@@ -1,0 +1,8 @@
+# Using continue statement in for loop
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+print("Loop ended")
